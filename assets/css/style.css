@@ -554,7 +554,20 @@ main {
   line-height: 1.6;
 }
 
+
+#autor img {
+  width: 70%;
+  position: relative;
+}
+
 #icon-team {
+  background-color: rgb(200, 150, 40);
+  border-radius: 20px;
+}
+
+#icon-aptitudes {
+  background-color: rgb(200, 150, 40);
+  border-radius: 20px;
   filter: grayscale(0.2);
 }
 
