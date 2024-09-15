@@ -565,6 +565,14 @@ main {
   border-radius: 20px;
 }
 
+#icon-python {
+  background-color: rgb(200, 150, 40);
+  border-radius: 20px;
+  width: 39px;
+  height: 39px;
+  color: #0e0e0e;
+}
+
 #icon-aptitudes {
   background-color: rgb(200, 150, 40);
   border-radius: 20px;
