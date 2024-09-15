@@ -168,12 +168,3 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 // INFO CARDS
 
-const clientsItems = document.querySelectorAll('.clients-item');
-
-clientsItems.forEach((item) => {
-  item.addEventListener('mouseover', () => {
-    const infoCard = item.querySelector('.info-card');
-    const infoText = item.getAttribute('data-info');
-    infoCard.querySelector('p').textContent = infoText;
-  });
-});
