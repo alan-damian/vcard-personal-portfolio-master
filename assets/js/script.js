@@ -1,15 +1,5 @@
 'use strict';
 
-    // Mostrar popup al cargar la página
-    window.onload = function() {
-      document.getElementById("popup").style.display = "block";
-    };
-
-    // Ocultar popup al hacer click
-    document.getElementById("popup").addEventListener("click", function() {
-      this.style.display = "none";
-    });
-
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
