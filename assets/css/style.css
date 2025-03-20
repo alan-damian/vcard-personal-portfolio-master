@@ -158,6 +158,96 @@ html { font-family: var(--ff-poppins); }
 body { background: var(--smoky-black); }
 
 
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.taghtml, .tagcss, .tagtail, .tagboots, .tagastro, .tagjs, .tagpy, .tagreact, .tagsql, .tagdj, .tagnode, .tagnet, .taggh, .tagapis, .tagfire, .tagseo, .tagfigma, .tagwp {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #9e9146;
+  color: #000000;
+  font-size: 14px;
+  border-radius: 20px;
+  border: 2px solid #837938;
+  cursor: default;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.taghtml:hover {
+  background-color: #d49100;
+  color: white;
+}
+.tagcss:hover {
+  background-color: #00b8d4;
+  color: white;
+}
+.tagtail:hover {
+  background-color: #ff00ff;
+  color: white;
+}
+.tagboots:hover {
+  background-color: #563d7c;
+  color: white;
+}
+.tagastro:hover {
+  background-color: #ff005d;
+  color: white;
+}
+.tagjs:hover {
+  background-color: #eeff00;
+  color: rgb(0, 0, 0);
+}
+.tagpy:hover {
+  background-color: #84ff00;
+  color: rgb(0, 0, 0);
+}
+.tagreact:hover {
+  background-color: #0047d4;
+  color: white;
+}
+.tagsql:hover {
+  background-color: #97fffc;
+  color: rgb(0, 0, 0);
+}
+.tagdj:hover {
+  background-color: #0e0e0e;
+  color: white;
+}
+.tagnode:hover {
+  background-color: #00b803;
+  color: white;
+}
+.tagnet:hover {
+  background-color: #17692d;
+  color: white;
+}
+.taggh:hover {
+  background-color: #000000;
+  color: white;
+}
+.tagapis:hover {
+  background-color: #ff00ff;
+  color: white;
+}
+.tagfire:hover {
+  background-color: #ff0000;
+  color: white;
+}
+.tagseo:hover {
+  background-color: #00ff00;
+  color: rgb(0, 0, 0);
+}
+.tagfigma:hover {
+  background-color: #ff00ff;
+  color: white;
+}
+.tagwp:hover {
+  background-color: #6073ff;
+  color: white;
+}
 
 
 
